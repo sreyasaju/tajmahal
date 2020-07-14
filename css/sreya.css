@@ -1,0 +1,22 @@
+.small-text {
+    font-size: smaller;
+}
+
+.sreya-blackbox {
+    min-width: 400px;
+    max-width: 500px;
+}
+
+.sreya-responsive {
+    background-image: url('/static/1.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 999;
+  }
