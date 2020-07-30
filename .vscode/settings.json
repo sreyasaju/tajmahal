@@ -3,5 +3,5 @@
     "oneDarkPro.bold": true,
     "oneDarkPro.vivid": true,
     "material-icon-theme.folders.theme": "classic",
-    "material-icon-theme.activeIconPack": "angular_ngrx"
+    "material-icon-theme.activeIconPack": "react_redux"
 }
