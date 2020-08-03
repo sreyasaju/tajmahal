@@ -2,6 +2,7 @@
     font-size: small;
     font-size: xx-large;
     text-align:left;
+    transition: 1s;
 }
 
 .ss-thetajmahal:hover{
@@ -9,8 +10,8 @@
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    transition: 1s;
 }
-
 
 .preloader {
     position: fixed;
@@ -22,9 +23,10 @@
 
 .ss-textgroup{
     background-color: rgba(0 , 0 , 0 , 0.55);
-    border-left: 10px solid white;
+    border-left: 9px solid white;
     border-radius:0.05;
     padding: 40px ;
+    text-align: left;
 }
 
 .ss-blackbox{
@@ -40,20 +42,6 @@
     margin-left:0.09em;
 }
 
-.ss-underlinepopup{
-    text-decoration: underline mediumspringgreen;
-    padding: 0.99px;
-    transition: 0.1s;
-    
-}
-
-.ss-underlinepopup:hover{
-    background:mediumspringgreen ;
-    border-radius: 7px;
-    color:rgb(48, 44, 44);
-    animation: ease;
-}
-
 .ss-sreyasaju{
     font-weight: bolder;
     font-size: 1.19em;
@@ -65,8 +53,42 @@
 
 .ss-sreyasaju:hover{
     color:aliceblue;
-    
+}
 
+.ss-blockquote:hover{
+    background-color:#b9bbbe;
+    transition: 0.5s;
+    color:#1f1f1f;
+    box-shadow: black;
+}
 
+.ss-hovershadow{
+    transition: 1s;
+}
+
+.ss-hovershadow:hover{
+    box-shadow: 4px 4px 25px #161616;
+    transition: 1s;
+
+}
+
+.ss-hovertextshadow{
+    transition: 1s;
+}
+.ss-hovertextshadow:hover{
+    text-shadow: 4px 4px 10px #161616;
+    transition: 1s;
+
+}
+
+.ss-myname{
+    font-size: 0.50em;
+    text-align-last: center;
+    color:aliceblue;
+    text-shadow: 2px 2px 5px #161616;
+}
+
+.ss-name{
+    font-size: 1.10em;
 }
 

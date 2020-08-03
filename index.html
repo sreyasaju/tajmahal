@@ -9,7 +9,7 @@
     <script src="js/initialize.js"></script>
     <link rel="stylesheet" href="dist/reset.css">
     <link rel="stylesheet" href="dist/reveal.css">
-    <link rel="stylesheet" href="dist/theme/black.css" id="theme">
+    <link rel="stylesheet" href="dist/theme/ss/ssblack.css" id="theme">
     <link rel="stylesheet" href="css/ss-stylesheet.css">
 
     <!-- Theme used for syntax highlighted code -->
@@ -34,14 +34,17 @@
         <section id="section-1" data-background-image="images/1.png"data-transition="convex-in" >
           <div class="r-stack">
           <!-- This 'div'ision is for the black box -->
-          <div class="ss-blackbox">
+          <div class="ss-blackbox ss-hovershadow">
             <div class="ss-textgroup">
               <p style= "font-weight: 400;  line-height: 2rem; text-align:left;">The CROWN of</p>
-              <h2 style="font-weight: 800;  line-height: 3rem;">PALACES</h2>
+              <h2 style="font-weight: 800;  line-height: 3rem; text-align:left;">PALACES</h2>
               <hr>
               <p class="fragment ss-thetajmahal" data-transition="fade-in">The Taj Mahal</p>
             </div>
           </div>
+        </div>
+        
+        <div><p class="fragment ss-myname ">Created by <strong class="ss-name">Sreya Saju</strong></p></div>
         </section>
 
       <!--
@@ -51,7 +54,8 @@
       -->
 
         <section data-background-image="images/2.jpg" data-background-transition="slide" >
-          <h2 class="fragment fade-up">About the <strong>TAJ MAHAL</strong></h2>
+          <div class="r-stack">
+            <h2 class="fragment fade-up ss-hovertextshadow">About the <strong>TAJ MAHAL</strong></h2>
         </section>
 
       <!--
@@ -61,11 +65,11 @@
       -->
 
         <section data-background-image="images/3.png" >
-          <p style="font-size:0.93em;font-size:1.0em;">
+          <p class="ss-hovertextshadow" style="font-size:0.93em;font-size:1.0em;">
             The <strong>Taj Mahal</strong> is an ivory-white marble mausoleum on the southern bank of
             the river Yamuna in the Indian city of <strong>Agra</strong>. It was commissioned in <strong>1632</strong>
-            by the Mughal emperor <strong class="ss-underlinepopup">Shah Jahan</strong>  <strong>(1628 to 1658)</strong> to house the
-            tomb of his favourite wife,<strong>Mumtaz Mahal</strong>.It also houses the tomb of Shah Jahan himself. 
+            by the Mughal emperor <strong>Shah Jahan</strong>  <strong>(1628 to 1658)</strong> to house the
+            tomb of his favourite wife,<strong>Mumtaz Mahal</strong>. It also houses the tomb of Shah Jahan himself. 
           </p>
         </section>
 
@@ -76,7 +80,7 @@
       -->
 
         <section data-background-image="images/4.png" data-transition="convex-in concave-out"  >
-          <p style="font-size:0.95em">
+          <p class="ss-hovertextshadow"  style="font-size:0.95em">
             The Taj Mahal was designated as a <strong>UNESCO World Heritage Site </strong> in <strong>1983</strong>
             for being <strong>"the jewel of Muslim art in India and one of the universally admired masterpieces 
             of the world's heritage"</strong>.It is regarded by many as the best example of Mughal architecture and 
@@ -93,10 +97,10 @@
       -->
 
         <section data-transition="concave">
-          <img src="images/5.png " alt="Ustad Ahmad Lahauri">
+          <img src="images/5.png " alt="Ustad Ahmad Lahauri" class="ss-hovershadow">
           <h1 style="font-size: 0.99em;">When did the construction begin?</h1>
           <rt>
-          <p style="font-size:0.93em;" >
+          <p class="ss-hovertextshadow"  style="font-size:0.93em;" >
             The construction began in the year <strong>1632</strong>. The Taj Mahal
             is believed to have been completed entirely in <strong>1653</strong> at a cost around <strong>70 billion rupees</strong>.The project employed <strong>20,000</strong>
             artisans under the court architect, <strong>Ustad Ahmad Lahauri</strong>.
@@ -111,9 +115,9 @@
       -->
 
         <section>
-          <img src="images/6.png" alt="The Taj Mahal as seen from across the Yamuna River">
-          <h1 style="font-size: 1.00em;">Where is it located?</h1>
-          <p style="font-size:0.93em;" >
+          <img src="images/6.png" alt="The Taj Mahal as seen from across the Yamuna River"  class="ss-hovershadow">
+          <h1 class="ss-hovertextshadow" style="font-size: 1.00em;">Where is it located?</h1>
+          <p class="ss-hovertextshadow" style="font-size:0.93em;" >
             Well, the Taj Mahal is located on the right bank of the <strong>Yamuna River</strong>
             in a vast Mughal garden that encompasses nearly 17 hectares, in the <strong>Agra District</strong>
             in <strong>Uttar Pradesh, which is an Indian state.</strong>
@@ -127,9 +131,9 @@
       -->
 
         <section data-transition="concave">
-          <img src="images/7.jpg" alt=" Image of Shah Jahan">
-          <h1 style="font-size: 1.00em;">Which ruling dynasty built it?</h1>
-          <p style="font-size:0.93em;" >
+          <img src="images/7.jpg" alt=" Image of Shah Jahan"  class="ss-hovershadow">
+          <h1 class="ss-hovertextshadow" style="font-size: 1.00em;">Which ruling dynasty built it?</h1>
+          <p class="ss-hovertextshadow" style="font-size:0.93em;" >
             The Taj Mahal was built during the <strong>Mughal dynasty</strong> which ruled during the Late Medieval
             period.It was commissioned by the Mughal Ruler <strong>Shahab-ud-din Muhammad Khurram</strong> better
             known by his regnal name <strong>Shah Jahan</strong>
@@ -143,9 +147,9 @@
       -->
 
         <section>
-          <img style="float: left;"src="images/8.jpeg" alt= "Image comparing the Taj Mahal's difference in color">
-          <h1 style="font-size: 1.00em;">What are the threats and who is responsible for its keep-up?</h1>
-          <p style="font-size:0.93em;" >
+          <img style="float: left;"src="images/8.jpeg"  class="ss-hovershadow" alt= "Image comparing the Taj Mahal's difference in color">
+          <h1 class="ss-hovertextshadow" style="font-size: 1.00em;">What are the threats and who is responsible for its keep-up?</h1>
+          <p class="ss-hovertextshadow" style="font-size:0.93em;" >
             During the first war of Independence, the foreign soldiers chiselled out precious stones and damaged it. Later,
             <strong>Lord Cuzron</strong> ordered a restoration project. However,recently the marble started turning <strong>yellow</strong>, due to
             environmental pollution. The polluting industries nearby have been relocated.Human beings are responsible
@@ -160,9 +164,9 @@
       -->
 
         <section data-transition="convex-in">
-          <img  style="float:right;" src="images/9.png" alt="Images of Shah Jahan and Mumtaz Mahal respectively">
+          <img  style="float:right;" src="images/9.png"  class="ss-hovershadow" alt="Images of Shah Jahan and Mumtaz Mahal respectively">
           <rt>
-          <p style="font-size:0.93em;" >
+          <p class="ss-hovertextshadow" style="font-size:0.93em;" >
             The Taj Mahal was commissioned by <strong>Shah Jahan</strong> in 1631,  in the memory of
             his wife <strong>Mumtaz Mahal</strong>, who died on 17 June that year.Construction started in 1632,
             and the mausoleum was completed in <strong>1648</strong>, while the surrounding buildings and garden
@@ -179,7 +183,7 @@
       -->
 
         <section data-background-image="images/10.png" data-transition="convex-in">
-          <h2 class="fragment fade-up" >The <span style="font-weight: 700">TOMBS</span></h2>
+          <h2 class="fragment fade-up ss-hovertextshadow"  >The <span style="font-weight: 700">TOMBS</span></h2>
         </section>
 
       <!--
@@ -189,8 +193,8 @@
       -->
 
         <section data-transition="convex">
-          <img style="float:left" src="images/11.png" alt="An Image showing the false sacrophagus of Shah Jahan and Mumtaz Mahal at the upper level and the original grave at the lower level">
-          <p style="font-size:0.93em;" >
+          <img style="float:left" src="images/11.png"  class="ss-hovershadow"  alt="An Image showing the false sacrophagus of Shah Jahan and Mumtaz Mahal at the upper level and the original grave at the lower level">
+          <p class="ss-hovertextshadow"  style="font-size:0.93em;" >
             The <strong>tomb</strong> is the central focus of the entire complex of the Taj Mahal. The <strong>main chamber</strong> houses
             the <strong>false tomb</strong> of <strong>Mumtaz Mahal and Shah Jahan</strong>; the actual graves are at a <strong>lower level</strong>.
             The upper cenotaphs are only illusory and the real graves are in the <strong>lower</strong> tomb.
@@ -204,7 +208,7 @@
       -->
 
         <section data-background-image="images/12.png" data-transition="slide">
-          <p>
+          <p class="ss-hovertextshadow" >
             The bodies of <strong>Mumtaz and Shah Jahan</strong> were put in a relatively <strong>plain</strong> crypt
             with their faces turned <strong>right</strong>, towards <strong>Mecca</strong>. Mumtaz's cenotaph is placed at the precise <strong>centre </strong>
             of the chamber. Calligraphic inscriptions on the casket identify and praise Mumtaz. Shah Jahan's cenotaph is
@@ -220,10 +224,10 @@
       -->
 
         <section data-transition="slide">
-          <p>
+          <p class="ss-hovertextshadow" >
             Shah Jahan's tomb has an inscription;
           </p>
-          <blockquote>
+          <blockquote class="ss-blockquote ss-hovershadow">
 						&ldquo;He travelled from
             this world to the banquet-hall of Eternity on the night of the twenty-sixth of the month of Rajab, in
             the year 1076 Hijri &rdquo;
@@ -237,7 +241,7 @@
       -->
 
         <section data-background-image="images/13.png" data-background transition="concave">
-            <h2 class="fragment fade-up">Exterior decorations of the TAJ MAHAL</h2>
+            <h2 class="fragment fade-up ss-hovertextshadow" ">Exterior decorations of the TAJ MAHAL</h2>
         </section>
 
       <!--
@@ -247,8 +251,8 @@
       -->
 
         <section data-transition="convex-in">
-          <img src="images/14.png" alt="The dome, chattris and the minarets of the Taj Mahal">
-          <p style="font-size: 0.92em;">
+          <img src="images/14.png"   class="ss-hovershadow" alt="The dome, chattris and the minarets of the Taj Mahal">
+          <p class="ss-hovertextshadow" style="font-size: 0.92em;">
             The most spectacular feature is the marble dome that covers the tomb. The dome is nearly <strong>
             115 ft(35m) high</strong>. The shape of the dome is emphasised by four smaller domed <strong>chattris</strong> placed at its
             corners. The finial is topped by a <strong>moon</strong>, a typical Islamic motif
@@ -264,8 +268,8 @@
       -->
 
         <section data-transition="concave-in">
-          <img style="float: left;"src="images/15.png" alt="Calligraphy on the Great Gate">
-          <p style="font-size: 0.90em;">
+          <img style="float: left;"src="images/15.png"  class="ss-hovershadow" alt="Calligraphy on the Great Gate">
+          <p class="ss-hovertextshadow" style="font-size: 0.90em;">
             The exterior decorations of the Taj Mahal are among the finest in Mughal architecture.The calligraphy on the  Great Gate
             reads;
             <br>
@@ -283,7 +287,7 @@
       -->
 
         <section data-background-image="images/16.png" data-background transition="concave">
-          <h2 class="fragment fade-up">Interior decorations of the TAJ MAHAL</h2>
+          <h2 class="fragment fade-up ss-hovertextshadow" >Interior decorations of the TAJ MAHAL</h2>
         </section>
 
       <!--
@@ -293,8 +297,8 @@
       -->
 
         <section>
-          <img style ="float: left;" src="images/17.png" alt="Images of Jali work and inlaid flower plant motifs">
-          <p style="font-size: 0.90em;">
+          <img style ="float: left;" src="images/17.png"  class="ss-hovershadow" alt="Images of Jali work and inlaid flower plant motifs">
+          <p class="ss-hovertextshadow" style="font-size: 0.90em;">
             The interior chamber of the Taj Mahal reaches far beyond traditional decorative elements. The four central upper arches form balconies, 
             and each balcony's exterior window has an screen or <strong>Jali</strong> cut from marble.
             The jali bordering the cenotaphs is made with intricate pierce work. The remaining surfaces are
@@ -309,7 +313,7 @@
       -->
 
         <section data-background-image="images/19.png" data-background transition="convex-in">
-          <h2 class="fragment fade-up">Myths</h2>
+          <h2 class="fragment fade-up ss-hovertextshadow ">Myths</h2>
         </section>
 
       <!--
@@ -319,8 +323,8 @@
       -->
 
         <section data-transition="concave" data-background-transition="zoom">
-          <img style ="float: left;" src="images/20.png" alt="image of the tombs as seen from top">
-          <p style="font-size: 0.80em;">
+          <img style ="float: left;" src="images/20.png"  class="ss-hovershadow" alt="image of the tombs as seen from top">
+          <p class="ss-hovertextshadow" style="font-size: 0.80em;">
             A myth holds that Shah Jahan is said to have desired a mausoleum for
             himself similar to Taj Mahal which
             would have been called the <strong>Black Taj</strong>, a <strong>black marble</strong> mausoleum that
@@ -339,8 +343,8 @@
       ========
       -->
           <section data-background-image="images/21.png" data-background transition="concave">
-            <h2  style="font-size:1.0em; text-shadow: 1px 1px 2px dimgrey , 0 0 1em dimgrey , 0 0 0.2em black; ; "class="fragment fade-up">Take pride,for this beautiful mausoleum is just located in our own </h2>
-            <h2  style="font-size:2.6em;"class="fragment fade-up"><span>INDIA</span></h2>
+            <h2  style="font-size:1.0em; text-shadow: 1px 1px 1px dimgrey , 0 0 1em dimgrey , 0 0 0.2em black; ; "class="fragment fade-up ss-hovertextshadow">Take pride,for this beautiful mausoleum is just located in our own </h2>
+            <h2  style="font-size:2.6em;"class="fragment fade-up ss-hovertextshadow" "><span>INDIA</span></h2>
           </section>
 
       <!--
@@ -362,8 +366,8 @@
 
           <section>
             <section data-background-image="images/23.png" data-background transition="concave">
-              <h1 style="font-size: 1.5em;"><strong>CITATION</strong></h1>
-              <p style="font-size: 0.5em;word-spacing: 0.2;"><strong>(Move down)</strong></p>
+              <h1 class="ss-hovertextshadow"  style="font-size: 1.5em;"><strong>CITATION</strong></h1>
+              <p class="ss-hovertextshadow" style="font-size: 0.5em;word-spacing: 0.2;"><strong>(Move down)</strong></p>
             </section>
 
       <!--
@@ -373,159 +377,159 @@
       -->
 
             <section data-transition="concave">
-              <img  height="500em" src=citation/1.png>
+              <img  height="500em"  class="ss-hovershadow" src=citation/1.png>
               <br>
               <span style="font-size: 0.90em;">Photo by <a href="https://unsplash.com/@driftswift?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Shashidhar S</a> on <a href="https://unsplash.com/s/photos/taj-mahal-complex?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
             </section>
 
             <section data-transition="concave">
-              <img src=citation/2.jpg>
+              <img src=citation/2.jpg  class="ss-hovershadow">
               <br>
               <span><strong>Taj Mahal at sunrise from Main Entrance</strong> by <a href="https://en.wikipedia.org/wiki/Taj_Mahal#/media/File:Taj_Mahal_sunrise.jpg">Gunjan Pandey</a> on <a href="https://en.wikipedia.org/wiki/Taj_Mahal#/media/File:Taj_Mahal_sunrise.jpg"> Wikipedia </a></span>
             </section>
 
             <section data-transition="concave">
-              <img src=citation/3.png>
+              <img src=citation/3.png  class="ss-hovershadow">
               <br>
               <span>Photo by <a href="https://unsplash.com/@sublimetaj?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Shan Elahi</a> on <a href="https://unsplash.com/s/photos/taj-mahal?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
             </section>
 
             <section data-transition="concave">
-              <img src=citation/4.jpg>
+              <img src=citation/4.jpg  class="ss-hovershadow">
               <br>
               <span>Photo by <a href="https://unsplash.com/@sylwiabartyzel?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Sylwia Bartyzel</a> on <a href="https://unsplash.com/s/photos/taj-mahal?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
             </section>
 
             <section data-transition="concave">
-              <img src=citation/5.jpeg>
+              <img src=citation/5.jpeg  class="ss-hovershadow">
               <br>
               <span><strong>Ustad Ahmad Lahori </strong> on <a style="word-spacing:0.99em ;" href="https://www.fictionworkers.com/post/you-don-t-the-designer-of-taj-mahal-don-t-say-shah-jahan"> fictionworkers </a></span>
             </section>
 
             <section>
-              <img src=citation/6.jpg>
+              <img src=citation/6.jpg  class="ss-hovershadow">
               <br>
               <span><strong>Taj Mahal as seen from across the Yamuna River</strong> by <a href="https://en.wikipedia.org/wiki/Taj_Mahal#/media/File:Taj_Mahal-10_(cropped).jpg">David Castor</a> on <a href="https://en.wikipedia.org/wiki/Taj_Mahal"> Wikipedia </a></span>
             </section>
 
             <section>
-              <img height="500em" src=citation/7.jpg>
+              <img height="500em" src=citation/7.jpg  class="ss-hovershadow">
               <br>
               <span><strong>Shahjahan on globe</strong> by <a href="https://commons.wikimedia.org/wiki/File:Shahjahan_on_globe,_mid_17th_century.jpg">	Hashim </a> on <a href="https://en.wikipedia.org/wiki/Taj_Mahal"> Wikipedia </a></span>
             </section>
 
             <section data-transition="concave">
-              <img height="500em" src=citation/8.jpeg>
+              <img height="500em" src=citation/8.jpeg  class="ss-hovershadow">
               <br>
               <span><strong>DANGERS ON TAJ MAHAL BEAUTY</strong>  on <a href="https://asiajourneyer.com/dangers-on-taj-mahal-beauty/"> Asia Journeyer </a></span>
             </section>
 
             <section>
-              <img src=citation/9_1.jpeg>
+              <img src=citation/9_1.jpeg  class="ss-hovershadow">
               <br>
               <span><strong>Shah Jahan</strong> by <a href="https://39clues.fandom.com/wiki/Shah_Jahan"> 39clues</a> on <a href="https://39clues.fandom.com/wiki/Shah_Jahan"> fandom </a></span>
             </section>
 
             <section data-transition="concave">
-              <img height="500em" src=citation/9_2.jpg>
+              <img height="500em" src=citation/9_2.jpg  class="ss-hovershadow">
               <br>
               <span><strong>Mumtaz Mahal</strong> on  <a href="https://en.wikipedia.org/wiki/Taj_Mahal"> Wikipedia </a></span>
             </section>
 
             <section>
-              <img src=citation/10.jpg>
+              <img src=citation/10.jpg  class="ss-hovershadow">
               <br>
               <span style="font-size: 0.93em;"><strong>The false tombs </strong> by <a href="https://en.wikipedia.org/wiki/Taj_Mahal#/media/File:Persian_prince_tomb_taj_mahal.jpg">Maahmaah </a> on <a href="https://en.wikipedia.org/wiki/Taj_Mahal"> Wikipedia </a></span>
             </section>
 
             <section data-transition="concave">
-              <img src=citation/11_1.jpg>
+              <img src=citation/11_1.jpg  class="ss-hovershadow">
               <br>
               <span><strong>The false sacrophagus </strong> on <a href="https://foundtheworld.com/wp-content/uploads/2014/04/Taj-Mahal-Inside-1-1.jpg"> Found The World </a></span>
             </section>
 
             <section data-transition="concave">
-              <img src=citation/11_2.jpg>
+              <img src=citation/11_2.jpg  class="ss-hovershadow">
               <br>
               <span><strong>The actual tombs of Mumtaz Mahal and Shah Jahan in the lower level</strong> by <a href="https://en.wikipedia.org/wiki/Taj_Mahal#/media/File:Tombs-in-crypt.jpg">William Donelson</a> on <a href="https://en.wikipedia.org/wiki/Taj_Mahal"> Wikipedia </a></span>
             </section>
 
             <section>
-                <img src=citation/13.jpg>
+                <img src=citation/13.jpg class="ss-hovershadow">
                 <br>
                 <span><strong>Taj Mahal</strong> on <a href="https://www.tripadvisor.com/Attraction_Review-g304551-d9826216-Reviews-Pioneer_Holidays-New_Delhi_National_Capital_Territory_of_Delhi.html"> Tripadivisor </a></span>
             </section>
 
 
             <section data-transition="concave">
-              <img src=citation/14_1.jpeg>
+              <img src=citation/14_1.jpeg  class="ss-hovershadow">
               <br>
               <span><strong>Dome and Chhatris</strong> by <a href="https://en.wikipedia.org/wiki/File:Dome_Chhatris_Spires_-_Taj_Mahal_-_Agra_2014-05-14_3805.JPG">Biswarup Ganguly</a> on <a href="https://en.wikipedia.org/wiki/Taj_Mahal"> Wikipedia </a></span>
             </section>
 
 
             <section data-transition="concave">
-              <img height="500em" src=citation/14_2.jpg>
+              <img height="500em" src=citation/14_2.jpg  class="ss-hovershadow">
               <br>
               <span><strong>Taj Mahal Exterior with a minaret</strong> by <a href="https://en.wikipedia.org/wiki/Taj_Mahal#/media/File:Taj_Mahal_Exterior_with_a_minaret.jpg">Matthew T Rader </a> on <a href="https://en.wikipedia.org/wiki/Taj_Mahal"> Wikipedia </a></span>
             </section>
 
             <section data-transition="concave">
-              <img height="500em" src=citation/15.jpg>
+              <img height="500em" src=citation/15.jpg  class="ss-hovershadow">
               <br>
               <span><strong>Calligraphy of Arabic Ayaat</strong> by <a href="https://en.wikipedia.org/wiki/Taj_Mahal#/media/File:India-6153_-_Flickr_-_archer10_(Dennis).jpg">Dennis Jarvis </a> on <a href="https://en.wikipedia.org/wiki/Taj_Mahal"> Wikipedia </a></span>
             </section>
 
             <section>
-              <img height="500em" src=citation/16.jpg>
+              <img height="500em" src=citation/16.jpg  class="ss-hovershadow">
               <br>
               <span><strong>Archways in the mosque</strong> by <a href="https://en.wikipedia.org/wiki/Taj_Mahal#/media/File:India-6153_-_Flickr_-_archer10_(Dennis).jpg">Bjørn Christian Tørrissen  </a> on <a href="https://en.wikipedia.org/wiki/Taj_Mahal"> Wikipedia </a></span>
             </section>
 
             <section data-transition="concave">
-              <img height="500em" src=citation/17_1.jpg>
+              <img height="500em" src=citation/17_1.jpg  class="ss-hovershadow">
               <br>
               <span><strong>Taj Mahal inside</strong> by <a href="http://www.compasswhistle.com/2013/07/you-look-like-an-idiot-pinching-the-taj-mahals-dome-and-other-observations-from-agra/taj-mahal-inside_7063/"> her </a> on <a href="http://www.compasswhistle.com/2013/07/you-look-like-an-idiot-pinching-the-taj-mahals-dome-and-other-observations-from-agra/taj-mahal-inside_7063/"> Compass Whistle </a></span>
             </section>
 
             <section data-transition="concave">
-              <img height="500em" src=citation/17_2.jpg>
+              <img height="500em" src=citation/17_2.jpg  class="ss-hovershadow">
               <br>
               <span><strong>Marble jali lattice</strong> by <a href="https://en.wikipedia.org/wiki/Taj_Mahal#/media/File:%D0%98%D0%BD%D0%B4%D0%B8%D1%8F45.jpg"> Leon petrosyan </a> on <a href="https://en.wikipedia.org/wiki/Taj_Mahal"> Wikipedia </a></span>
             </section>
 
             <section>
-              <img height="500em" src=citation/17_3.jpg>
+              <img height="500em" src=citation/17_3.jpg  class="ss-hovershadow">
               <br>
               <span><strong>Detail of plant motifs on Taj Mahal wall</strong> by <a href="https://en.wikipedia.org/wiki/Taj_Mahal#/media/File:Detail_of_plant_motifs_on_Taj_Mahal_wall.jpg">Matthew T Rader </a> on <a href="https://en.wikipedia.org/wiki/Taj_Mahal"> Wikipedia </a></span>
             </section>
 
             <section>
-              <img height="500em" src=citation/19.jpg>
+              <img height="500em" src=citation/19.jpg  class="ss-hovershadow">
               <br>
               <span><strong>Taj Mahal as seen from Mehtab Bagh</strong>  on <a href="https://insider.in/mehtab-bagh-agra-uttar-pradesh/event"> Insider </a></span>
             </section>
 
             <section data-transition="concave">
-              <img height="500em" src=citation/20.png>
+              <img height="500em" src=citation/20.png class="ss-hovershadow">
               <br>
               <span><strong>The tombs as seen from the top</strong>  on <a href="https://www.pinterest.co.uk/pin/134826582580403500/"> Pinterest </a></span>
             </section>
 
             <section data-transition="concave">
-              <img height="500em" src=citation/21.png>
+              <img height="500em" src=citation/21.png  class="ss-hovershadow">
               <br>
               <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by flatart - www.freepik.com</a>
             </section>
 
             <section>
-              <img height="500em" src=citation/23.jpg>
+              <img height="500em" src=citation/23.jpg  class="ss-hovershadow">
               <br>
               <a href="https://timesofindia.indiatimes.com/travel/destinations/mehtab-bagh-taj-view-point-opens-for-tourists/as72084337.cms">Mehtab Bagh on Times of India</a>
             </section>
 
             <section data-transition="concave">
-              <img height="500em" src=citation/24.png>
+              <img height="500em" src=citation/24.png  class="ss-hovershadow">
               <br>
               <a href="https://www.freepik.com/free-photos-vectors/background">Background photo created by Freepik- www.freepik.com</a>
             </section>
@@ -542,7 +546,7 @@
             <section data-background-image="images/24.png" data-transition="concave">
             </section>
 
-
+      
       </div>
     </div>
   </div>
@@ -583,7 +587,7 @@
           $(".preloader").append(
             "\
             <div class='mx-auto' style='margin-top:calc(50vh - 1rem)'>\
-              <p style='color: #FFF'> Uh Oh. Your device is very small to view. If you are using a mobile, please rotate it to use Landscape mode </p>\
+              <p style='color: #FFF'> Uh Oh! Your device is very small to view. If you are using a mobile, kindly rotate it to use landscape mode </p>\
             </div>"
           )
         }

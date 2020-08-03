@@ -6,7 +6,7 @@ A presentation on the **Taj Mahal** made on Reveal.js. This presentation gives s
 
 
 
-<hr> <p align="center">Created by <strong>Sreya Saju</strong>
+<hr> <p align="center">Created by <strong>Sreya Saju</strong></p>
 
 
 
