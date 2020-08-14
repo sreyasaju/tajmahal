@@ -10,14 +10,15 @@
     <link rel="stylesheet" href="dist/reset.css">
     <link rel="stylesheet" href="dist/reveal.css">
     <link rel="stylesheet" href="dist/theme/ss/ssblack.css" id="theme">
-    <link rel="stylesheet" href="css/ss-stylesheet.css">
+    <link rel="stylesheet" href="css/ss-stylesheet-minified.css">
+
+
 
     <!-- Theme used for syntax highlighted code -->
     <link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
 
     <!-- Montserrat font-->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,800;1,500;1,700&display=swap" rel="stylesheet">
-
   </head>
   <body>
 
@@ -43,7 +44,6 @@
             </div>
           </div>
         </div>
-        
         <div><p class="fragment ss-myname ">Created by <strong class="ss-name">Sreya Saju</strong></p></div>
         </section>
 
@@ -241,7 +241,7 @@
       -->
 
         <section data-background-image="images/13.png" data-background transition="concave">
-            <h2 class="fragment fade-up ss-hovertextshadow" ">Exterior decorations of the TAJ MAHAL</h2>
+            <h2 class="fragment fade-up ss-hovertextshadow">Exterior decorations of the TAJ MAHAL</h2>
         </section>
 
       <!--
@@ -344,7 +344,7 @@
       -->
           <section data-background-image="images/21.png" data-background transition="concave">
             <h2  style="font-size:1.0em; text-shadow: 1px 1px 1px dimgrey , 0 0 1em dimgrey , 0 0 0.2em black; ; "class="fragment fade-up ss-hovertextshadow">Take pride,for this beautiful mausoleum is just located in our own </h2>
-            <h2  style="font-size:2.6em;"class="fragment fade-up ss-hovertextshadow" "><span>INDIA</span></h2>
+            <h2  style="font-size:2.6em;"class="fragment fade-up ss-hovertextshadow"><span>INDIA</span></h2>
           </section>
 
       <!--
@@ -536,6 +536,7 @@
 
 
           </section>
+      
 
         <!--
       ========
@@ -546,7 +547,7 @@
             <section data-background-image="images/24.png" data-transition="concave">
             </section>
 
-      
+         </div>
       </div>
     </div>
   </div>
@@ -581,12 +582,12 @@
     <script>
       // checks if the screenwidth is not supported
       $(document).ready(function(){
-        if ($(window).width() >= 400) {
+        if ($(window).width() >= $(window).height()) {
           $(".preloader").fadeOut();
         } else {
           $(".preloader").append(
             "\
-            <div class='mx-auto' style='margin-top:calc(50vh - 1rem)'>\
+            <div class='mx-auto' style='margin-top:calc(50vh - 1rem); text-align:center;'>\
               <p style='color: #FFF'> Uh Oh! Your device is very small to view. If you are using a mobile, kindly rotate it to use landscape mode </p>\
             </div>"
           )
