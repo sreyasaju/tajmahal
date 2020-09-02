@@ -93,3 +93,25 @@
 }
 
 
+.fa-angle-double-down{
+    color:#00ccff;
+    animation: bounce-down 2s infinite both ease-out;
+    border-radius: 100%;
+    box-shadow:  5 2px 5px rgba(0,0,0,0.5), 0 6px 35px rgba(0,0,0,0.2);
+    height:16px;
+    width:16px;
+}
+
+.fa-angle-double-down:hover{
+    color:#00a2ff;
+}
+
+@keyframes bounce-down {
+	0%, 10%, 25%, 40%, 50% {transform: translateY(0);}
+	20% {transform: translateY(10px);}
+	30% {transform: translateY(-5px);}
+}
+
+.ss-fontsize-increase{
+    font-size: 1.8em;
+}
