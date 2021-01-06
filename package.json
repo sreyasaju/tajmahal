@@ -1,11 +1,6 @@
 {
-  "name": "reveal.js",
-  "version": "4.0.2",
-  "description": "The HTML Presentation Framework",
-  "homepage": "https://revealjs.com",
-  "subdomain": "revealjs",
-  "main": "dist/reveal.js",
-  "module": "dist/reveal.esm.js",
+  "name": "tajmahal",
+  "description": "Geography",
   "license": "MIT",
   "scripts": {
     "test": "gulp test",
@@ -13,9 +8,7 @@
     "build": "gulp"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "https://hakim.se"
+    "name": "Sreya Saju"
   },
   "repository": {
     "type": "git",
@@ -24,11 +17,7 @@
   "engines": {
     "node": ">=10.0.0"
   },
-  "keywords": [
-    "reveal",
-    "slides",
-    "presentation"
-  ],
+
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
