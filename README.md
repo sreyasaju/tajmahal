@@ -5,6 +5,6 @@ A presentation on the **Taj Mahal** made on Reveal.js. This presentation gives s
 
 
 ----
-Copyright &copy; 2021-2023 [Sreya Saju](https://github.com/sreyasaju) <br>
+Copyright &copy; 2021-2024 [Sreya Saju](https://github.com/sreyasaju) <br>
 This repository is licensed under MIT License.
 
